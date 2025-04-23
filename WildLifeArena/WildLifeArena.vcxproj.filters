@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Animals">
+      <UniqueIdentifier>{66d65af5-15d1-4752-9f95-dbbdeca211e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f5143e82-3cc7-4631-8334-4de306d6d03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7c9a940f-e747-4563-b8fd-31f8e99a4ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{21f6c3e6-ad48-4fad-8905-9cd584676bd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Elephant.cpp">
+      <Filter>Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Parrot.cpp">
+      <Filter>Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Seal.cpp">
+      <Filter>Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Giraffe.cpp">
+      <Filter>Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Elephant.h">
+      <Filter>Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Parrot.h">
+      <Filter>Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Seal.h">
+      <Filter>Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Giraffe.h">
+      <Filter>Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanFly.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanSwim.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

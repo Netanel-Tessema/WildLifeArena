@@ -1,0 +1,11 @@
+﻿  Animal.cpp
+  Elephant.cpp
+  GameEngine.cpp
+C:\Users\Asus\source\repos\WildLifeArena\WildLifeArena\GameEngine.cpp(53,17): warning C4566: character represented by universal-character-name '\U0001F3C6' cannot be represented in the current code page (1252)
+C:\Users\Asus\source\repos\WildLifeArena\WildLifeArena\GameEngine.cpp(55,17): warning C4566: character represented by universal-character-name '\U0001F3C6' cannot be represented in the current code page (1252)
+  Giraffe.cpp
+  main.cpp
+  Parrot.cpp
+  Seal.cpp
+  Generating Code...
+  WildLifeArena.vcxproj -> C:\Users\Asus\source\repos\WildLifeArena\x64\Debug\WildLifeArena.exe
