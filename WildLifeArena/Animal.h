@@ -22,13 +22,13 @@ public:
     virtual std::string getType() const = 0;
 
     // Combat mechanics
-    virtual void attack(Animal* target);           // Regular attack
-    virtual void useSpecial(Animal* target) = 0;   // Special ability per animal
-    virtual void takeDamage(int amount);           // Decrease health by damage
+    virtual void attack(Animal* target);           
+    virtual void useSpecial(Animal* target) = 0;   
+    virtual void takeDamage(int amount);           
 
-    // Info / utilities
-    bool isAlive() const;      // Check if animal is still alive
-    int getHealth() const;     // Get current HP
+   
+    bool isAlive() const;      
+    int getHealth() const;     
     std::string getName() const;
     int getAge() const;
 };
